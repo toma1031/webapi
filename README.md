@@ -21,14 +21,16 @@ $ node app.js
 ## API Usage
 
 ### Post a reading log
-Method: POST
-URI: http://localhost:3000/booklog
-Parameters: name, name2
-Response: { "ok": true, "booklogs": { "name": "abook", "name2": "bbook" }}
-Error: { "ok": false, "error": "invalid parameter" }
+
+Method: POST  
+URI: http://localhost:3000/booklog  
+Parameters: name, name2  
+Response: { "ok": true, "booklogs": { "name": "abook", "name2": "bbook" }}  
+Error: { "ok": false, "error": "invalid parameter" }  
 
 ### Get a list of posts logs
-Method: GET
-URI: http://localhost:3000/booklog
-Parameters: None
-Response: { "ok": true, "booklogs": { "name": "abook", "name2": "bbook" }}
+
+Method: GET  
+URI: http://localhost:3000/booklog  
+Parameters: None  
+Response: { "ok": true, "booklogs": { "name": "abook", "name2": "bbook" }}  
